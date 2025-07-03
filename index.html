@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HopeForAll | NGO Charity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">HopeForAll</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Make the World a Better Place</h1>
+      <p>Join us in helping those in need.</p>
+      <a href="#donate" class="btn">Donate Now</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>HopeForAll is a nonprofit organization focused on supporting underprivileged communities with education, healthcare, and food supplies.</p>
+  </section>
+
+  <section id="donate">
+    <h2>Donate</h2>
+    <p>Your contribution can make a difference. Help us reach more lives.</p>
+    <button onclick="alert('Thank you for your support!')">Donate via PayPal</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" id="name" required />
+      <input type="email" placeholder="Your Email" id="email" required />
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-msg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 HopeForAll. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

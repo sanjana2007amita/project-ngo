@@ -1,0 +1,40 @@
+
+        body{
+            text-align:center;
+        }
+        ul{
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: lightblue;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        li a.hover{
+            background-color: blue;
+            color: white;
+            transition: 0.5s ease;
+        }
+        .class{
+            background-image: url(images.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* padding: 50px;
+            margin: 50px; */
+        }
+        .b{
+            float: right;}
+            .c{margin-bottom: 50px;}
+    .card healthcare{
+        margin-top: 3cm;
+    }
